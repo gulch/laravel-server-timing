@@ -1,5 +1,5 @@
 {
-    "name": "beyondcode/laravel-server-timing",
+    "name": "gulch/laravel-server-timing",
     "description": "Add Server-Timing header information from within your Laravel apps.",
     "keywords": [
         "beyondcode",
@@ -16,13 +16,13 @@
         }
     ],
     "require": {
-        "php": "^7.2",
-        "illuminate/support": "5.8.*|^6.0|^7.0",
+        "php": "^7.3",
+        "illuminate/support": "5.8.*|^6.0|^7.0|^8.0",
         "symfony/stopwatch": "^4.0|^5.0"
     },
     "require-dev": {
-        "orchestra/testbench": "^4.6",
-        "phpunit/phpunit": "^8.0"
+        "orchestra/testbench": "^4.6|^6.0",
+        "phpunit/phpunit": "^8.0|^9.0"
     },
     "autoload": {
         "psr-4": {
